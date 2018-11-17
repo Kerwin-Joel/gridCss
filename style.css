@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+	font-family: 'Gloria Hallelujah', cursive;
+    
+}
+body{
+   
+    background: url(img/foto.jpg) no-repeat fixed;
+    background-size: 100% 100%;
+    color: white;
+
+}
+
+.header{
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    top: 30%;
+}
+
+ .name{
+    
+    font-size: 4.5rem;
+    text-align: center;
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 70%;
+    text-shadow: 2px 2px 5.5px black, -2px -2px 2.5px black ;
+
+} 
+.text,.name{
+    
+    text-transform: uppercase;
+}
+
+
+
+
+.ulsocial>li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 33px;
+}
+
+
+i{
+   color: white;
+   text-align: center;
+   width: 65px;
+   padding: 14px;
+   border-radius: 50px;
+   font-size: 40px;
+   transition: all 1s;
+
+}
+
+
+.social{
+    position: fixed;
+    top: 70%;
+    left: 5.5%;
+    z-index: 1;
+}
+.a{
+    border-radius: 100px;
+    background: black;
+    transition: all 1s;
+
+}
+i:hover{
+    color: black;
+}
+.a:hover{
+    background:white;
+}
+
+
+
+
+.article{
+    width: 17em;
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 8em 0 0 0;
+    position: absolute;
+    left: 56%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+
+}
+
+.txt{
+
+    text-shadow: black 1px 2px , black -2px -1px;
+}
+
+
+.text{
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    margin-top: 0;
+    margin-left: 60%;
+
+}
+
+
+
+.box2{
+    position: relative;
+    top: 45rem;
+}
+img{
+	
+    width:100%;
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width: 480px){
+
+    .name{
+        top: 1rem;
+        font-size: 3rem;
+    }
+
+}
+.foot{
+    background:rgb(105,105,105,0.6);
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+.yo{
+    text-align: center;
+	color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
